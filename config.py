@@ -11,11 +11,11 @@ configs = Configs()
 # trainer related
 configs.n_cpu = 0
 configs.device = torch.device('cuda:0')
-configs.batch_size_test = 64
+configs.batch_size_test = 16
 configs.batch_size = 10
 configs.lr = 0.001
 configs.weight_decay = 0
-configs.display_interval = 60
+configs.display_interval = 20
 configs.num_epochs = 100
 configs.early_stopping = True
 configs.patience = 5
