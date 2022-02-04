@@ -11,7 +11,7 @@ configs = Configs()
 # trainer related
 configs.n_cpu = 0
 configs.device = torch.device('cuda:0')
-configs.batch_size_test = 16
+configs.batch_size_test = 64
 configs.batch_size = 10
 configs.lr = 0.001
 configs.weight_decay = 0
